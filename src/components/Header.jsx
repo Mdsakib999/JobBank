@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='box w-[90%] mx-auto flex justify-between items-center p-6'>
+        <div className='w-[90%] mx-auto flex justify-between items-center p-6'>
             <div >
                 <h3 className='font-bold text-4xl '>Dream<span className='text-indigo-500'>Job</span>Bank</h3>
                 
@@ -30,7 +30,6 @@ const Header = () => {
             </div>
 
             <div>
-
                 <button className="px-5 py-3 font-bold text-white rounded-lg bg-gradient-to-r from-indigo-700 to-blue-400 hover:from-blue-400 hover:to-indigo-700 transition">Start Applying
                 </button>
             </div>
