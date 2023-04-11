@@ -1,0 +1,22 @@
+[
+
+    {"id": 1, 
+    "title": "Creative Design", 
+    "Image": "https://i.ibb.co/NYzd3YP/creative.png",
+    "job": "140+"},
+
+    {"id": 2, 
+    "title": "Finance & Banking", 
+    "Image": "https://i.ibb.co/dQ2VgDk/bank.png",
+    "job": "300+"},
+
+    {"id": 3, 
+    "title": "Engineering Job", 
+    "Image": "https://i.ibb.co/pX3zvQz/engineering.png",
+    "job": "350+"},
+
+    {"id": 4, 
+    "title": "Software & IT", 
+    "Image": "https://i.ibb.co/VSsXH11/coding.png",
+    "job": "900+"}
+]

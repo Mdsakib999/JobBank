@@ -1,20 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Lottie from "lottie-react";
 import searchAnimation from "../assets/search-users.json";
+import ShowCatagoryData from './ShowCatagoryData';
 
-
-
-
-const LoadJobData = () => {
-
-    const [loadData, setLoadData] = useState([]);
-
-    useEffect(()=>{
-        fetch('/jobCatagoryData.json')
-        .then(res => res.json)
-        .then(data => console.log(data))
-    }, [])
-}
 
 
 const Home = () => {
@@ -37,16 +25,54 @@ const Home = () => {
             </div>
 
 
-            <div>
-                <h1>Job Ctegory List</h1>
-                <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            {/* Jov Category List */}
+
+            <div className='w-[90%] mx-auto'>
+                <h1 className='font-bold text-6xl text-center mt-3'>Job Category List</h1>
+                <p className='text-center my-4'>Explore thousands of job opportunities with all the information you need at your fingertips.</p>
+
+                <LoadJobData></LoadJobData>
             </div>
 
 
+            {/* Featured Jobs */}
+            <div >
+                <h1 className='font-bold text-6xl text-center mt-20'>Featured Jobs</h1>
+                    <p className='text-center my-4'>It's time to build your bright future. Explore thousands of job openings with all the information you need.</p>
+            </div>
             
 
         </div>
     );
 };
+
+
+
+// Jov Category List
+const LoadJobData = () => {
+
+    const [loadData, setLoadData] = useState([]);
+
+    useEffect(()=>{
+        fetch('jobData.json')
+        .then(res => res.json())
+        .then(data => setLoadData(data))
+    }, [])
+
+    return (
+        <div className='flex justify-evenly'>
+            {
+                loadData.map(data => <ShowCatagoryData
+                key={loadData.id}
+                data= {data}>
+                </ShowCatagoryData>)
+            }
+        </div>
+    );
+}
+
+
+// Featured Jobs
+
 
 export default Home;
