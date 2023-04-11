@@ -17,6 +17,11 @@ const Header = () => {
                         </NavLink>
                     </li>
                     <li className='px-4 font-bold'>
+                        <NavLink to="/statistics" className={({isActive})=> isActive ? 'text-indigo-500' : '' }>
+                        Statistics
+                        </NavLink>
+                    </li>
+                    <li className='px-4 font-bold'>
                         <NavLink to="/AppliedJobs" className={({isActive})=> isActive ? 'text-indigo-500' : '' }>
                             Applied Jobs
                         </NavLink>
