@@ -3,7 +3,7 @@ import React from 'react';
 const ShowCatagoryData = ({data}) => {
     const {title, job} = data;
     return (
-        <div className='box mt-7 p-6 mb-5 rounded-lg bg-blue-100'>
+        <div className='mt-7 p-6 mb-5 rounded-lg bg-blue-100'>
             <div className='w-24 bg-white p-2 rounded-md'>
                 <img src={data.Image} alt="" />
             </div>

@@ -1,0 +1,118 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "https://i.ibb.co/R98ZtD8/google-1-1-1.png", 
+        "title": "Sr Software Engineer", 
+        "companyName": "Google LLC",
+        "jobType": "Onsite",
+        "location":"Tx, USA",
+        "salary": "120k-150k",
+        "jobDesc": "We are looking for a skilled software engineer who, along with our excellent software development team, will be responsible for working on projects that are currently being developed on by our company. Duties will include but are not limited to developing and directing software system validation and testing methods, as well as directing our software programming initiatives. ",
+
+        "jobResponsibility": "Execute complete software development life cycle (SDLC) Create flowchart layouts and documentation to identify requirements and solutions Write well-designed, testable code. Determine manufacturing specifications and operational feasibility.  Software components into a fully functional software system",
+
+        "education": "Bachelor degree in CSE from any reputed University",
+        "experience": "2-3",
+        "phone": "+881 0210 1248",
+        "email": "info@gmail.com"
+
+    },
+
+    {
+        "id": 2,
+        "companyLogo": "https://i.ibb.co/bQFPDMN/netflix-4.png", 
+        "title": "Product Designer", 
+        "companyName": "Netflix",
+        "jobType": "Remote",
+        "location":"London, UK",
+        "salary": "80k-100k",
+
+        "jobDesc": "A Product Designer is a professional who is in charge of translating the wants and needs of consumers into product design features.",
+
+        "jobResponsibility": "They must have a creative eye, be able to think outside the box in order to come up with new ideas or solutions that meet customer expectations, and create digital or print drawings as well as design fully-functional products.",
+
+        "education": "Bachelor degree from any reputed University",
+        "experience": "0-2",
+        "phone": "+881 0210 1123",
+        "email": "info@gmail.com"
+
+    },
+
+    {
+        "id": 3,
+        "companyLogo": "https://i.ibb.co/Lt1v7C4/tesla-9-1.png", 
+        "title": "Technical Database Engineer", 
+        "companyName": "Tesla",
+        "jobType": "Onsite",
+        "location":"LA, USA",
+        "salary": "100k-120k",
+        "jobDesc": "Database engineers design and maintain databases, increase data storage capacity, and troubleshoot database functionality issues. They also review database performance and user reports.",
+
+        "jobResponsibility": "Database Engineers administer, test, and implement computer databases, applying knowledge of database management systems. Coordinate changes to computer databases. Identify, investigate, and resolve database performance issues, database capacity, and database scalability.",
+
+        "education": "Bachelor degree from any reputed University",
+        "experience": "0-2",
+        "phone": "+881 0210 9999",
+        "email": "info@gmail.com"
+
+    },
+
+    {
+        "id": 4,
+        "companyLogo": "https://i.ibb.co/DDcVRs5/airbnb.png", 
+        "title": "UI/UX Designer", 
+        "companyName": "Airbnb",
+        "jobType": "Remote",
+        "location":"CA, USA",
+        "salary": "100k-130k",
+        "jobDesc": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+
+        "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+
+        "education": "We don't care about education, If you have skill.",
+        "experience": "0-2",
+        "phone": "+881 0210 9999",
+        "email": "info@gmail.com"
+
+    },
+
+    {
+        "id": 5,
+        "companyLogo": "https://i.ibb.co/t4pQJdB/Meta-Logo.png", 
+        "title": "Software Engineer", 
+        "companyName": "Meta",
+        "jobType": "Onsite",
+        "location":"NY,USA",
+        "salary": "110k-120k",
+
+        "jobDesc": "We are looking for a skilled software engineer who, along with our excellent software development team, will be responsible for working on projects that are currently being developed on by our company. Duties will include but are not limited to developing and directing software system validation and testing methods, as well as directing our software programming initiatives. ",
+
+        "jobResponsibility": "Execute complete software development life cycle (SDLC) Create flowchart layouts and documentation to identify requirements and solutions Write well-designed, testable code. Determine manufacturing specifications and operational feasibility.  Software components into a fully functional software system",
+
+        "education": "Bachelor degree in CSE from any reputed University",
+        "experience": "2-3",
+        "phone": "+881 0210 0000",
+        "email": "info@gmail.com"
+
+    },
+
+    {
+        "id": 6,
+        "companyLogo": "https://i.ibb.co/R98ZtD8/google-1-1-1.png", 
+        "title": "Big Data Engineer", 
+        "companyName": "Google LLC",
+        "jobType": "Remote",
+        "location":"Dhaka, Bangladesh",
+        "salary": "150k-180k",
+
+        "jobDesc": "A Big Data Engineer is a person who creates and manages a company's Big Data infrastructure and tools, and is someone that knows how to get results from vast amounts of data quickly. The actual definition of this role varies, and often mixes with the Data Scientist role.",
+
+        "jobResponsibility": "Develop and maintain data pipelines using ETL processes. Take responsibility for Apache Hadoop development and implementation. Work closely with data science team to implement data analytics pipelines. Help define data governance policies and support data-versioning processes.",
+
+        "education": "Bachelor degree in CSE from any reputed University",
+        "experience": "2-3",
+        "phone": "+881 0210 3366",
+        "email": "info@gmail.com"
+
+    }
+]
