@@ -2,29 +2,34 @@ import { json } from "react-router-dom"
 
 
 const addToLocal = id =>{
-    localStorage.setItem('apply-job', id)
+    let shoppingCart = {}
 
-    let appliedJobs = {}
+  //get the shopping cart from local storage
+  const storedCart = localStorage.getItem('shopping-cart')
+  if (storedCart) {
+    shoppingCart = JSON.parse(storedCart)
+  }
 
-    // get data from local
-
-    const storedData = localStorage.getItem('apply-job')
-
-    if(storedData) {
-        appliedJobs = JSON.parse(storedData)
-    }
-
-
-    const number = appliedJobs[id]
-    if(number) {
-        const newNumber = number + 1;
-        appliedJobs[id] = newNumber
-    }
-    else{
-        appliedJobs[id] = 1
-    }
-
-    localStorage.setItem('apply-job', JSON.stringify(appliedJobs))
+  // add quantity
+  const quantity = shoppingCart[id]
+  if (quantity) {
+    // const newQuantity = quantity + 1
+    shoppingCart[id] = quantity
+  } else {
+    shoppingCart[id] = 1
+  }
+  localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
 }
 
-export{addToLocal}
+const getFromLocal = () => {
+    let shoppingCart = {}
+  
+    //get the shopping cart from local storage
+    const storedCart = localStorage.getItem('shopping-cart')
+    if (storedCart) {
+      shoppingCart = JSON.parse(storedCart)
+    }
+    return shoppingCart
+  }
+
+export{addToLocal, getFromLocal}
