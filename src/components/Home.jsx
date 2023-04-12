@@ -16,7 +16,7 @@ const Home = () => {
             <div className='w-[88%] flex mx-auto gap-6 items-center'>
                 <div className='w-[50%]'>
                     <h1 className='text-7xl font-bold'>One Step Closer To Your <span className='text-transparent text-7xl bg-clip-text bg-gradient-to-r from-indigo-700 to-blue-300'>Dream Job</span></h1>
-                    <p className='my-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga iusto eius, eos debitis dicta hic sapiente maxime corrupti, odio qui labore. Sunt quo eius dignissimos provident, sint est deleniti minima!</p>
+                    <p className='my-4'>A website that deals specifically with employment or careers. A job board enables employers to publish job offers for a position to be filled. For their search, jobseekers navigate through different websites in order to find a job.</p>
 
                     <button className="px-5 py-3 font-bold text-white rounded-lg bg-gradient-to-r from-indigo-700 to-blue-400 hover:from-blue-400 hover:to-indigo-700 transition">Get Started
                     </button>
