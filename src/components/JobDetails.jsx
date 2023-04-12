@@ -1,19 +1,27 @@
 import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
+import { addToLocal } from '../utils/fakeData';
 
 const JobDetails = () => {
 
     const detailsData = useLoaderData()
-    console.log(detailsData)
+    // console.log(detailsData)
+    const {id} = detailsData
+
+    const applyJobs = id => {
+        
+        addToLocal(id)
+    }
+    // console.log(detailsData)
     return (
         <div >
             <h1 className='text-4xl font-bold text-center mt-10 mb-20'>Job Details</h1>
 
             <div className='w-[85%] mx-auto'>
 
-            <div className='flex gap-5'>
+            <div className='lg:flex gap-5'>
 
-                <div className='w-[60%]'>
+                <div className='w-[90%] lg:w-[60%]'>
                     <h3><span className='font-bold'> Job Description:</span> {detailsData.jobDesc}</h3>
                     <h3 className='my-6'><span className='font-bold'>Job responsibility:</span> {detailsData.jobResponsibility}</h3>
                     <h3 className='font-bold'>Educational Requirements:</h3>
@@ -23,7 +31,7 @@ const JobDetails = () => {
                 </div>
 
                 
-                <div className='box w-[30%] p-7 bg-indigo-100 rounded-lg '>
+                <div className='w-[80%] lg:w-[30%] p-7 bg-indigo-100 rounded-lg mt-7 lg:mt-0'>
                     <h3 className='text-2xl font-bold'>Job Details</h3>
                     <hr />
                     <p className='font-bold bg-slate-50 p-2 rounded-lg mt-3'><span className='me-2'><i class="fa-solid fa-calendar-days"></i> </span>Job Title: {detailsData.title}</p>
@@ -43,7 +51,10 @@ const JobDetails = () => {
 
                 </div>
                     <div className='mb-24'>
-                        <Link to='/AppliedJobs' className='box mb-7 text-white text-center mt-6 w-[25%] absolute right-56 px-5 py-3 font-bold rounded-lg bg-gradient-to-r from-indigo-700 to-blue-400 hover:from-blue-400 hover:to-indigo-700 transition'>Apply jobs</Link>
+                        
+                        <button onClick={()=> applyJobs(id)} className='box mb-7 text-white text-center mt-6 w-[30%] lg:w-[25%] absolute right-56 px-5 py-3 font-bold rounded-lg bg-gradient-to-r from-indigo-700 to-blue-400 hover:from-blue-400 hover:to-indigo-700 transition'>
+                            Apply jobs
+                        </button>
                     </div>
 
                     

@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='w-[90%] mx-auto flex justify-between items-center p-6'>
+        <div className='w-[90%] mx-auto lg:flex justify-between items-center p-6'>
             <div >
                 <h3 className='font-bold text-4xl '>Dre<span className='text-transparent bg-clip-text bg-gradient-to-r from-indigo-800 to-blue-400'>amJobB</span>ank</h3>
                 
             </div>
 
-            <div>
+            <div className='my-5 lg:my-0'>
                 <ul className='flex'>
                     <li className='px-4 font-bold'>
                         <NavLink to="/" className={({isActive})=> isActive ? 'text-indigo-500' : '' }>
@@ -34,7 +34,7 @@ const Header = () => {
                 </ul>
             </div>
 
-            <div>
+            <div >
                 <button className="px-5 py-3 font-bold text-white rounded-lg bg-gradient-to-r from-indigo-700 to-blue-400 hover:from-blue-400 hover:to-indigo-700">Start Applying
                 </button>
             </div>
