@@ -51,6 +51,7 @@ const Home = () => {
 
                         
                         {
+                            
                             featuredData.slice(0,4).map(feater => <FeaturedJobsData 
                             key={feater.id}
                             feater ={feater}>
